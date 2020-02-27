@@ -29,6 +29,7 @@
   
   header {
     padding: 12% 0;
+    
   }
   
   section {
@@ -41,7 +42,32 @@
     background-color: #ddd;
   }
   
-  .head-shot {
-      height: 70%;
-      width: 70%;
+  img {
+      height: 200px;
+      float: left;
   }
+
+  .bio {
+      font-size: 16px;
+      
+  }
+
+  h1 {
+      font-size: 20px;
+  }
+
+  
+
+
+  /*@media (min-width: 320px) {
+      h1 {
+          font-size: 25px;
+      }
+      img {
+          height: 100px;
+          float:left;
+      }
+      h2{
+          font-size: 20px;
+      }
+  }*/
